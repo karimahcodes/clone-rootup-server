@@ -5,9 +5,18 @@ router.get('/', (req, res) => {
     res.send('get all users');
 });
 
+
+
+
+
+
+
+
+
 router.post('/', (req, res) => {
     res.send("add new user");
 });
+
 
 
 
