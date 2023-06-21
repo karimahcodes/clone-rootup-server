@@ -3,7 +3,8 @@ const cors = require("cors");
 
 const app = express();
 const farmRoutes = require('./routes/farmRoutes');
-const userRoutes = require('./routes/userRoutes');
+const categoriesRoutes = require('./data/categories.json');
+// const userRoutes = require('./routes/userRoutes');
 
 
 app.use(cors());
@@ -13,11 +14,11 @@ app.use('/categories', categoriesRoutes)
 
 
 
-router.get('/farmtype', categoriesRoutes) 
+// router.get('/farmtype', categoriesRoutes) 
 
-app.get('/community', categoriesRoutes)
+// app.get('/community', categoriesRoutes)
 
-app.get('/region', categoriesRoutes)
+// app.get('/region', categoriesRoutes)
 
 
 
