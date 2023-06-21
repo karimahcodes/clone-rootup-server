@@ -16,30 +16,10 @@ router.get('/', (req, res) => {
 
 });
 
-router.get('/farmtypes', (req, res)=>{
-    let farmtype = req.query.type;
-
-})
-
-router.get('/region', (req, res)=>{
-    let region = req.query.type;
-    
-
-})
-router.get('/communities', (req, res)=>{
-    let communities = req.query.type;
-
-})
 
 router.post('/', (req, res) => {
     res.send("add new farm");
 });
-
-
-
-
-
-
 
 
 

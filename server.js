@@ -15,9 +15,9 @@ app.use('/categories', categoriesRoutes)
 
 router.get('/farmtype', categoriesRoutes) 
 
-app.get('/categories/community', farmRoutes)
+app.get('/community', categoriesRoutes)
 
-app.get('/categories/region', farmRoutes)
+app.get('/region', categoriesRoutes)
 
 
 
