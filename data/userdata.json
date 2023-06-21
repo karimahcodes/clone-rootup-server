@@ -1,0 +1,17 @@
+[
+    {
+        "firstName": "Ann",
+        "lastName": "Apprentice",
+        "password": "rootUP",
+        "pronouns": "she/her/they",
+        "phone": "800-588-2300",
+        "email": "a@gmail.com",
+        "zip": 10001,
+        "region":"(US-SE) SouthEast",
+        "userIntro": "Can't wait to learn. Past experiences: - foraging in my community parks,- 2 years construction/carpentry,",
+        "goals":"",
+        "usertype": "apprentice",
+        "image": "" 
+    }
+
+]
