@@ -26,8 +26,8 @@ router.get('/farmtypes', (req, res)=>{
     const farmData = fs.readFileSync("./data/farmData.json");
     const parsedFarmData = JSON.parse(farmData);
     const farmType = req.query.type;
-    const farmsByType = parsedFarmData.filter((farm)=>farm.farmType.includes(farmType));
-    res.JSON(farmsByType)
+    const farmsByType = parsedFarmData.filter((farm)=>farm.farmType.includes(farmType))
+    res.json(farmsByType)
     
 });
 
@@ -50,8 +50,8 @@ router.get('/regions', (req, res)=>{
     const farmData = fs.readFileSync("./data/farmData.json");
     const parsedFarmData = JSON.parse(farmData);
     const region = req.query.region;
-    const farmsByRegion = parsedFarmData.includes((farm)=>farm.region);
-    res.JSON(farmsByRegion);
+    const farmsByRegion = parsedFarmData.filter((farm)=>farm.region.includes(region));
+    res.json(farmsByRegion)
 });
 
 router.get('/communities', (req, res)=>{
@@ -60,7 +60,7 @@ router.get('/communities', (req, res)=>{
     const community = req.query.community;
     const farmsByCommunity = parsedFarmData.includes((farm)=>
     farm.community);
-    res.JSON(farmsByCommunity);
+    res.json(farmsByCommunity);
 
 })
 
