@@ -16,16 +16,13 @@ function readCategories(){
     const parsedCategories = JSON.parse(categories);
 }
 
-// GET all farms by type of production/("farmtype")
-// router.get('/farmtypes', (req, res)=>{
-//     let farmtype = req.query.type;
-
-// })
-
 router.get('/farmtypes', (req, res)=>{
+    console.log("farmtypes")
     const farmData = fs.readFileSync("./data/farmData.json");
     const parsedFarmData = JSON.parse(farmData);
-    const farmType = req.query.type;
+    const farmType = req.query.farmType;
+
+    console.log(farmType);
     const farmsByType = parsedFarmData.filter((farm)=>farm.farmType.includes(farmType))
     res.json(farmsByType)
     
@@ -35,12 +32,22 @@ router.get('/farmtypes', (req, res)=>{
 
 /*
  "Fruit/Vegetable",
-        "Flower/Herb",             
-        "Mushroom",
-        "Aquaponic/Fish",
-        "Garden/SmallSpace/Rooftop/Urban",
-        "Bee/Pollinator/Insect",
-        "Animal husbandry"
+        "fruitVegetable",
+        "flowerHerb",
+        "mushroom",
+        "poultryLivestock",
+        "indoorGreenhouse"
+        "aquaponicFish",
+        "beePollinatorInsect",
+        "gardenSmallSpaceRooftopUrban",
+        "poultryLivestock"
+
+CommunityTypes:
+qtbipoc
+africanDiaspora
+aapi
+latinAmerican
+
  */
 
 
@@ -57,9 +64,8 @@ router.get('/regions', (req, res)=>{
 router.get('/communities', (req, res)=>{
     const farmData = fs.readFileSync("./data/farmData.json");
     const parsedFarmData = JSON.parse(farmData);
-    const community = req.query.community;
-    const farmsByCommunity = parsedFarmData.includes((farm)=>
-    farm.community);
+    const community = req.query.communityType;
+    const farmsByCommunity = parsedFarmData.filter((farm)=>farm.communityType.includes(community));
     res.json(farmsByCommunity);
 
 })
