@@ -31,22 +31,30 @@ router.get('/farmtypes', (req, res)=>{
 
 
 /*
- "Fruit/Vegetable",
+    farmType optionss:
         "fruitVegetable",
         "flowerHerb",
         "mushroom",
-        "poultryLivestock",
-        "indoorGreenhouse"
         "aquaponicFish",
         "beePollinatorInsect",
         "gardenSmallSpaceRooftopUrban",
         "poultryLivestock"
-
-CommunityTypes:
-qtbipoc
-africanDiaspora
-aapi
-latinAmerican
+        "indoorGreenhouse"
+    communityType options:
+        qtbipoc
+        africanDiaspora
+        aapi
+        latinAmerican
+        arabMENA
+        nativeAmerican
+    region options:
+        "(US-NE) NorthEast",
+        "(US-SE) SouthEast",
+        "(US-MW) Midwest",
+        "(US-W) West/Northwest",
+        "region": "(US-S) South",
+        "(US-PO) Pacific Ocean",
+        "(US-CAR) Caribbean (Puerto Rico, US Virgin Islands)",
 
  */
 

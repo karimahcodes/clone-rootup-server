@@ -15,13 +15,6 @@ app.use('/categories', categoriesRoutes)
 
 
 
-// router.get('/farmtype', categoriesRoutes) 
-
-// app.get('/community', categoriesRoutes)
-
-// app.get('/region', categoriesRoutes)
-
-
 
 
 app.listen(8080, () => {

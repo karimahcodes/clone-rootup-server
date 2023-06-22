@@ -115,6 +115,7 @@
         ],
         "communityType": [
             "africanDiaspora",
+            "nativeAmerican",
             "arabMENA"
         ],
         "cost": {
@@ -160,6 +161,7 @@
         "communityType": [
             "qtbipoc",
             "africanDiaspora",
+            "nativeAmerican",
             "aapi",
             "latinAmerican",
             "arabMENA"
@@ -207,6 +209,7 @@
         "communityType": [
             "qtbipoc",
             "africanDiaspora",
+            "nativeAmerican",
             "aapi",
             "latinAmerican",
             "arabMENA"
@@ -249,6 +252,7 @@
         "communityType": [
             "qtbipoc",
             "africanDiaspora",
+            "nativeAmerican",
             "aapi"
         ],
         "cost": {
@@ -294,7 +298,7 @@
         "communityType": [
             "qtbipoc",
             "africanDiaspora",
-            "NativeAmerican",
+            "nativeAmerican",
             "latinAmerican"
         ],
         "cost": {
