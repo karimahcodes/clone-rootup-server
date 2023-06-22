@@ -1,0 +1,341 @@
+[
+    {
+        "id": 1,
+        "farmName": "SoulFire Farm",
+        "img": "../assets/images/almond-orchard.jpg",
+        "contactInfo": {
+            "address": "123 Sesame Street, East Elmo, New York 11344",
+            "phone": "718-788-0777",
+            "website": "www.soulfirefarm.org"
+        },
+        "region": "(US-NE) NorthEast",
+        "qtbipocAffirming": true,
+        "blackAffirming": true,
+        "programName": "BIPOC Farm Immersion Program",
+        "programFormat": {
+            "in-person": true,
+            "virtual": false,
+            "hybrid": false
+        },
+        "hiresApprentices": false,
+        "farmType": [
+            "Fruit-Vegetable",
+            "Flower-Herb",
+            "Mushroom"
+        ],
+        "Ownership": {
+            "Black-ownedOrLed": true,
+            "QTBIPOC-ownedOrLed": true,
+            "Woman-ownedOrLed": true
+        },
+        "CommunityType": {
+            "QTBIPOC": true,
+            "AfricanDiaspora": true,
+            "NativeAmerican": true,
+            "AAPI": false,
+            "LatinAmerican": true,
+            "Arab-MENA": false
+        },
+        "cost": {
+            "paidApprenticeship": true,
+            "programFee": 0.00
+        },
+        "lodgingAvailable": true,
+        "accessibility": "multilingual staff, standing/accessible garden beds, wheelchair-accessible paths",
+        "description": ""
+    },
+    {
+        "id": 2,
+        "farmName": "Farm2",
+        "img": "./assets/",
+        "contactInfo": {
+            "address": "",
+            "phone": "",
+            "website": "www.google.com"
+        },
+        "region": "(US-SE) SouthEast",
+        "qtbipocAffirming": true,
+        "blackAffirming": true,
+        "programName": "QTBIPOC Farm Immersion Program2",
+        "programFormat": {
+            "in-person": true,
+            "virtual": false,
+            "hybrid": false
+        },
+        "hiresApprentices": false,
+        "farmType": [
+            "Fruit-Vegetable": true,
+            "Flower-Herb": true,
+            "Mushroom": true,
+            "Aquaponic-Fish": false,
+            "Garden-SmallSpace-Rooftop-Urban": false,
+            "Bee-Pollinator-Insect": false,
+            "Animal husbandry": false
+        ],
+        "ownership": {
+            "Black-ownedOrLed": true,
+            "QTBIPOC-ownedOrLed": true,
+            "Woman-ownedOrLed": true
+        },
+        "CommunityType": {
+            "QTBIPOC": true,
+            "AfricanDiaspora": true,
+            "NativeAmerican": true,
+            "AAPI": true,
+            "LatinAmerican": true,
+            "Arab-MENA": false
+        },
+        "cost": {
+            "paidApprenticeship": true,
+            "programFee": 0.00
+        },
+        "lodgingAvailable": true,
+        "accessibility": "multilingual staff, standing/accessible garden beds, wheelchair-accessible paths",
+        "description": ""
+    },
+    {
+        "id": 3,
+        "farmName": "Farm3",
+        "img": "./assets/",
+        "contactInfo": {
+            "address": "",
+            "phone": "",
+            "website": "www.google.com"
+        },
+        "region": "(US-MW) Midwest",
+        "qtbipocAffirming": true,
+        "blackAffirming": true,
+        "programName": "QTBIPOC Farm Immersion Program3",
+        "programFormat": {
+            "in-person": true,
+            "virtual": false,
+            "hybrid": false
+        },
+        "hiresApprentices": false,
+        "farmType": [
+            "Fruit-Vegetable": true,
+            "Flower-Herb": true,
+            "Mushroom": true,
+            "Aquaponic-Fish": true,
+            "Garden-SmallSpace-Rooftop-Urban": true,
+            "Bee-Pollinator-Insect": false,
+            "Animal husbandry": false
+        ],
+        "ownership": {
+            "Black-ownedOrLed": true,
+            "QTBIPOC-ownedOrLed": true,
+            "Woman-ownedOrLed": true
+        },
+        "CommunityType": {
+            "QTBIPOC": false,
+            "AfricanDiaspora": true,
+            "NativeAmerican": false,
+            "AAPI": false,
+            "LatinAmerican": false,
+            "Arab-MENA": true
+        },
+        "cost": {
+            "paidApprenticeship": true,
+            "programFee": 0.00
+        },
+        "lodgingAvailable": true,
+        "accessibility": "multilingual staff, standing/accessible garden beds, wheelchair-accessible paths",
+        "description": ""
+    },
+    {
+        "id": 4,
+        "farmName": "Farm4",
+        "img": "./assets/",
+        "contactInfo": {
+            "address": "",
+            "phone": "",
+            "website": "www.google.com"
+        },
+        "region": "(US-W) West/Northwest",
+        "qtbipocAffirming": true,
+        "blackAffirming": true,
+        "programName": "QTBIPOC Farm Immersion Program4",
+        "programFormat": {
+            "in-person": true,
+            "virtual": false,
+            "hybrid": false
+        },
+        "hiresApprentices": false,
+        "farmType": [
+            "Fruit-Vegetable": true,
+            "Flower-Herb": true,
+            "Mushroom": true,
+            "Aquaponic-Fish": true,
+            "Garden-SmallSpace-Rooftop-Urban": true,
+            "Bee-Pollinator-Insect": true,
+            "Animal husbandry": false
+        ],
+        "ownership": {
+            "Black-ownedOrLed": true,
+            "QTBIPOC-ownedOrLed": true,
+            "Woman-ownedOrLed": true
+        },
+        "CommunityType": {
+            "QTBIPOC": true,
+            "AfricanDiaspora": true,
+            "NativeAmerican": true,
+            "AAPI": true,
+            "LatinAmerican": true,
+            "Arab-MENA": true
+        },
+        "cost": {
+            "paidApprenticeship": true,
+            "programFee": 0.00
+        },
+        "lodgingAvailable": true,
+        "accessibility": "multilingual staff, standing/accessible garden beds, wheelchair-accessible paths",
+        "description": ""
+    },
+    {
+        "id": 5,
+        "farmName": "Farm5",
+        "img": "./assets/",
+        "contactInfo": {
+            "address": "",
+            "phone": "",
+            "website": "www.google.com"
+        },
+        "region": "(US-S) South",
+        "qtbipocAffirming": true,
+        "blackAffirming": true,
+        "programName": "QTBIPOC Farm Immersion Program5",
+        "programFormat": {
+            "in-person": true,
+            "virtual": false,
+            "hybrid": false
+        },
+        "hiresApprentices": true,
+        "farmType": [
+            "Fruit-Vegetable": true,
+            "Flower-Herb": true,
+            "Mushroom": true,
+            "Aquaponic-Fish": true,
+            "Garden-SmallSpace-Rooftop-Urban": true,
+            "Bee-Pollinator-Insect": true,
+            "Animal husbandry": true
+        ],
+        "ownership": {
+            "Black-ownedOrLed": true,
+            "QTBIPOC-ownedOrLed": true,
+            "Woman-ownedOrLed": true
+        },
+        "CommunityType": {
+            "QTBIPOC": true,
+            "AfricanDiaspora": true,
+            "NativeAmerican": true,
+            "AAPI": true,
+            "LatinAmerican": true,
+            "Arab-MENA": true
+        },
+        "cost": {
+            "paidApprenticeship": true,
+            "programFee": 0.00
+        },
+        "lodgingAvailable": true,
+        "accessibility": "multilingual staff, standing/accessible garden beds, wheelchair-accessible paths",
+        "description": ""
+    },
+    {
+        "id": 6,
+        "farmName": "Farm6",
+        "img": "./assets/",
+        "contactInfo": {
+            "address": "",
+            "phone": "",
+            "website": "www.google.com"
+        },
+        "region": "(US-PO) Pacific Ocean",
+        "qtbipocAffirming": true,
+        "blackAffirming": true,
+        "programName": "QTBIPOC Farm Immersion Program6",
+        "programFormat": {
+            "in-person": true,
+            "virtual": false,
+            "hybrid": false
+        },
+        "hiresApprentices": true,
+        "farmType": [
+            "Fruit-Vegetable": true,
+            "Flower-Herb": true,
+            "Mushroom": false,
+            "Aquaponic-Fish": false,
+            "Garden-SmallSpace-Rooftop-Urban": false,
+            "Bee-Pollinator-Insect": false,
+            "Animal husbandry": false
+        ],
+        "ownership": {
+            "Black-ownedOrLed": true,
+            "QTBIPOC-ownedOrLed": false,
+            "Woman-ownedOrLed": true
+        },
+        "CommunityType": {
+            "QTBIPOC": true,
+            "AfricanDiaspora": true,
+            "NativeAmerican": false,
+            "AAPI": true,
+            "LatinAmerican": false,
+            "Arab-MENA": false
+        },
+        "cost": {
+            "paidApprenticeship": true,
+            "programFee": 0.00
+        },
+        "lodgingAvailable": true,
+        "accessibility": "multilingual staff, standing/accessible garden beds, wheelchair-accessible paths",
+        "description": ""
+    },
+    {
+        "id": 7,
+        "farmName": "Farm7",
+        "img": "./assets/",
+        "contactInfo": {
+            "address": "",
+            "phone": "",
+            "website": "www.google.com"
+        },
+        "region": "(US-CAR) Caribbean (Puerto Rico, US Virgin Islands)",
+        "qtbipocAffirming": true,
+        "blackAffirming": true,
+        "programName": "QTBIPOC Farm Immersion Program7",
+        "programFormat": {
+            "in-person": true,
+            "virtual": false,
+            "hybrid": false
+        },
+        "hiresApprentices": true,
+        "farmType": [
+            "Fruit-Vegetable": true,
+            "Flower-Herb": true,
+            "Mushroom": true,
+            "Aquaponic-Fish": true,
+            "Garden-SmallSpace-Rooftop-Urban": true,
+            "Bee-Pollinator-Insect": true,
+            "Animal husbandry": true
+        ],
+        "ownership": {
+            "Black-ownedOrLed": true,
+            "QTBIPOC-ownedOrLed": true,
+            "Woman-ownedOrLed": true
+        },
+        "CommunityType": {
+            "QTBIPOC": true,
+            "AfricanDiaspora": true,
+            "NativeAmerican": true,
+            "AAPI": false,
+            "LatinAmerican": true,
+            "Arab-MENA": false
+        },
+        "cost": {
+            "paidApprenticeship": true,
+            "programFee": 0.00
+        },
+        "lodgingAvailable": true,
+        "accessibility": "multilingual staff, standing/accessible garden beds, wheelchair-accessible paths",
+        "description": ""
+    }
+]

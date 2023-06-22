@@ -16,50 +16,68 @@ function readCategories(){
     const parsedCategories = JSON.parse(categories);
 }
 
-// GET all farms by type of production/("farmtype")
-// router.get('/farmtypes', (req, res)=>{
-//     let farmtype = req.query.type;
-
-// })
-/***************[FARM PRODUCTION TYPE]**************/
+/****************[GET FARMS BY PRODUCTION TYPE]***************/
 router.get('/farmtypes', (req, res)=>{
-    // console.log("farmtype", req.query.farmType);
-    
     const farmData = fs.readFileSync("./data/farmData.json");
     const parsedFarmData = JSON.parse(farmData);
-    //convert all values to adjust for mis-casing in the request
-    // const farmType = req.query.farmType.toLowerCase();
+    const farmType = req.query.farmType;
+    const farmsByType = parsedFarmData.filter((farm)=>farm.farmType.includes(farmType)); 
 
-    const farmsByType = parsedFarmData.filter((farm) => farm.farmType.includes(farmType));
-    res.json(farmsByType);
-   
+    res.json(farmsByType)
     
-})
+});
 
-/*******************[REGIONS]**********************/
+
+/*********************[GET FARMS BY REGION]*********************/
 router.get('/regions', (req, res)=>{
     const farmData = fs.readFileSync("./data/farmData.json");
     const parsedFarmData = JSON.parse(farmData);
     const region = req.query.region;
+    const farmsByRegion = parsedFarmData.filter((farm)=>farm.region.includes(region));
 
-    const farmsByRegion = parsedFarmData.filter((farm)=> farm.region.includes(region));
+    res.json(farmsByRegion)
+});
 
-    res.json(farmsByRegion);
-
-})
-
-
-/****************[COMMUNITY OF FOCUS]**************/
+/*********************[GET FARMS BY COMMUNITY OF FOCUS]*********************/
 router.get('/communities', (req, res)=>{
     const farmData = fs.readFileSync("./data/farmData.json");
     const parsedFarmData = JSON.parse(farmData);
-    const communityType = req.query.communityType;
-
-    const farmsByCommunity = parsedFarmData.filter((farm)=> farm.communityType.includes(communityType));
+    const community = req.query.communityType;
+    const farmsByCommunity = parsedFarmData.filter((farm)=>farm.communityType.includes(community));
 
     res.json(farmsByCommunity);
 
-
 })
 
+
+
 module.exports = router;
+
+
+/*
+    farmType optionss:
+        "fruitVegetable",
+        "flowerHerb",
+        "mushroom",
+        "aquaponicFish",
+        "beePollinatorInsect",
+        "gardenSmallSpaceRooftopUrban",
+        "poultryLivestock"
+        "indoorGreenhouse"
+    communityType options:
+        qtbipoc
+        africanDiaspora
+        aapi
+        latinAmerican
+        arabMENA
+        nativeAmerican
+    region options:
+        "(US-NE) NorthEast",
+        "(US-SE) SouthEast",
+        "(US-MW) Midwest",
+        "(US-W) West/Northwest",
+        "region": "(US-S) South",
+        "(US-PO) Pacific Ocean",
+        "(US-CAR) Caribbean (Puerto Rico, US Virgin Islands)",
+
+ */
