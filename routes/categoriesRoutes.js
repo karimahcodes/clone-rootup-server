@@ -17,18 +17,28 @@ function readCategories(){
 }
 
 // GET all farms by type of production/("farmtype")
-router.get('/farmtypes', (req, res)=>{
-    let farmtype = req.query.type;
+// router.get('/farmtypes', (req, res)=>{
+//     let farmtype = req.query.type;
 
-})
+// })
 
 router.get('/farmtypes', (req, res)=>{
-    let fruitVegFarms = farmsData.find((farmType) => farmType.Fruit-Vegetable === true);
-    if (fruitVegFarms === req.params.farmType) {
-        res.json(fruitVegFarms)
-    }else{ 
-        res.status(404).json({message: "farmtype not found"})
-    };
+    console.log("farmtype", req.query.farmType);
+    
+    const farmData = fs.readFileSync("./data/farmData.json");
+    const parsedFarmData = JSON.parse(farmData);
+    
+    //convert all values to adjust for mis-casing in the request
+    const farmType = req.query.farmType.toLowerCase();
+
+    let farmsByCategory = parsedFarmData.filter((farm) => farm.farmType.includes(farmType));
+    console.log("test of farms")
+    // if (fruitVegFarms === req.query.farmType) {
+    res.json(farmsByCategory);
+    // }else{ 
+        // res.status(404).json({message: "farmtype not found"})
+    // }
+    // ;
     
 })
 

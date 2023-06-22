@@ -1,393 +1,356 @@
 [
+    
     {
         "id": 1,
-        "farmName": "SoulFire Farm",
-        "img":"../assets/images/almond-orchard.jpg",
+        "farmName": "Big ",
+        "farmImageSource":"../assets/images/almond-orchard.jpg",
         "contactInfo":{
-            "Address":"123 Sesame Street, East Elmo, New York 11344",
-            "Phone":"718-788-0777",
+            "address":"123 Sesame Street, East Elmo, New York 11344",
+            "phone":"718-788-0777",
             "website":"www.soulfirefarm.org"
         },
 
-        "Region":"(US-NE) NorthEast",
-        "QTBIPOCAffirming": true,
-        "BlackAffirming": true,
+        "region":"(US-NE) NorthEast",
+        "qtbipocAffirming": true,
+        "blackAffirming": true,
         
-        "ProgramName":"BIPOC Farm Immersion Program",
+        "programName":"BIPOC Farm Immersion Program",
         
-        "Program-Format":{
-            "in-person": true,
-            "virtual": false,
-            "hybrid": false
-        },
+        "programFormat":[
+            "in-person"
+        ],
 
-        "HiresApprentices": false,
-        "FarmType":{
-            "Fruit-Vegetable": true,
-            "Flower-Herb": true,             
-            "Mushroom": true,
-            "Aquaponic-Fish": false,
-            "Garden-SmallSpace-Rooftop-Urban": false,
-            "Bee-Pollinator-Insect": false,
-            "Animal husbandry": false
-        },
+        "hiresApprentices": false,
+        "farmType":[
+            "fruit-vegetable",
+            "flower-herb",             
+            "mushroom"
+        ],
 
-        "Ownership":{
-            "Black-ownedOrLed": true,
-            "QTBIPOC-ownedOrLed": true,
-            "Woman-ownedOrLed": true
-        },
+        "ownership":[
+            "blackOwnedOrLed",
+            "qtbipocOwnedOrLed",
+            "womanOwnedOrLed"
+        ],
 
-        "CommunityType":{
-            "QTBIPOC": true,
-            "AfricanDiaspora": true,
-            "NativeAmerican": true,
-            "AAPI": false,
-            "LatinAmerican": true,
-            "Arab-MENA": false
-            },
-        "Costs":{
+        "communityType":[
+            "qtbipoc",
+            "africanDiaspora",
+            "nativeAmerican",            
+            "latinAmerican"
+            
+        ],
+        "cost":{
             "paidApprenticeship": true,
-            "programFee": ""
+            "programFee": 0.00
         },
-        "LodgingAvailable": true,
-        "Accessibility": "multilingual staff, standing/accessible garden beds, wheelchair-accessible paths", 
-        "Description": ""
+        "lodgingAvailable": true,
+        "accessibility": "multilingual staff, standing/accessible garden beds, wheelchair-accessible paths", 
+        "desccription": ""
     },
     {   
         "id": 2,
         "farmName": "Farm2",
-        "img":"./assets/",
+        "farmImageSource":"../assets/images/almond-orchard.jpg",
         "contactInfo":{
-            "Address":"",
-            "Phone":"",
+            "address":"",
+            "phone":"",
             "website":"www.google.com"
         },
 
-        "Region":"(US-SE) SouthEast",
-        "QTBIPOCAffirming": true,
-        "BlackAffirming": true,
+        "region":"(US-SE) SouthEast",
+        "qtbipocAffirming": true,
+        "blackAffirming": true,
         
-        "ProgramName":"QTBIPOC Farm Immersion Program2",
+        "programName":"QTBIPOC Farm Immersion Program2",
         
-        "Program-Format":{
-            "in-person": true,
-            "virtual": false,
-            "hybrid": false
-        },
+        "programFormat":[
+            "in-person"
+        ],
 
-        "HiresApprentices": false,
-        "FarmType":{
-            "Fruit-Vegetable": true,
-            "Flower-Herb": true,             
-            "Mushroom": true,
-            "Aquaponic-Fish": false,
-            "Garden-SmallSpace-Rooftop-Urban": false,
-            "Bee-Pollinator-Insect": false,
-            "Animal husbandry": false
-        },
+        "hiresApprentices": false,
+        "farmType":[
+            "fruit-vegetable",
+            "flower-herb",             
+            "mushroom"
+        ],
 
-        "Ownership":{
-            "Black-ownedOrLed": true,
-            "QTBIPOC-ownedOrLed": true,
-            "Woman-ownedOrLed": true
-        },
+        "ownership":[
+            "blackOwnedOrLed",
+            "qtbipocOwnedOrLed",
+            "womanOwnedOrLed"
+        ],
 
-        "CommunityType":{
-            "QTBIPOC":true,
-            "AfricanDiaspora": true,
-            "NativeAmerican": true,
-            "AAPI": true,
-            "LatinAmerican": true,
-            "Arab-MENA": false
-            },
-        "Costs":{
+        "communityType":[
+            "qtbipoc",
+            "africanDiaspora",
+            "nativeAmerican",
+            "aapi",
+            "latinAmerican"
+        ],
+        "cost":{
             "paidApprenticeship": true,
-            "programFee": ""
+            "programFee": 0.00
         },
-        "LodgingAvailable": true,
-        "Accessibility": "multilingual staff, standing/accessible garden beds, wheelchair-accessible paths", 
-        "Description": ""
+        "lodgingAvailable": true,
+        "accessibility": "multilingual staff, standing/accessible garden beds, wheelchair-accessible paths", 
+        "desccription": ""
     
     },
     {
         "id": 3,
         "farmName": "Farm3",
-        "img":"./assets/",
+        "farmImageSource":"../assets/images/almond-orchard.jpg",
         "contactInfo":{
-            "Address":"",
-            "Phone":"",
+            "address":"",
+            "phone":"",
             "website":"www.google.com"
         },
 
-        "Region":"(US-MW) Midwest",
-        "QTBIPOCAffirming": true,
-        "BlackAffirming": true,
+        "region":"(US-MW) Midwest",
+        "qtbipocAffirming": true,
+        "blackAffirming": true,
         
-        "ProgramName":"QTBIPOC Farm Immersion Program3",
+        "programName":"QTBIPOC Farm Immersion Program3",
         
-        "Program-Format":{
-            "in-person": true,
-            "virtual": false,
-            "hybrid": false
-        },
+        "programFormat":[
+            "in-person"
+        ],
 
-        "HiresApprentices": false,
-        "FarmType":{
-            "Fruit-Vegetable": true,
-            "Flower-Herb": true,             
-            "Mushroom": true,
-            "Aquaponic-Fish": true,
-            "Garden-SmallSpace-Rooftop-Urban": true,
-            "Bee-Pollinator-Insect": false,
-            "Animal husbandry": false
-        },
+        "hiresApprentices": false,
+        "farmType":[
+            "fruit-vegetable",
+            "flower-herb",             
+            "mushroom",
+            "aquaponic-fish",
+            "garden-smallSpace-rooftop-urban",
+            "indoorGreenHouse"
+        ],
 
-        "Ownership":{
-            "Black-ownedOrLed": true,
-              "QTBIPOC-ownedOrLed": true,
-              "Woman-ownedOrLed": true
-        },
+        "ownership":[
+            "blackOwnedOrLed",
+            "qtbipocOwnedOrLed",
+            "womanOwnedOrLed"
+        ],
 
-        "CommunityType":{
-            "QTBIPOC":false,
-            "AfricanDiaspora": true,
-            "NativeAmerican": false,
-            "AAPI": false,
-            "LatinAmerican": false,
-            "Arab-MENA": true
-            },
-        "Costs":{
+        "communityType":[
+            "africanDiaspora",
+            "arabMENA"
+        ],
+
+        "cost":{
             "paidApprenticeship": true,
-            "programFee": ""
+            "programFee": 0.00
         },
-        "LodgingAvailable": true,
-        "Accessibility": "multilingual staff, standing/accessible garden beds, wheelchair-accessible paths", 
-        "Description": ""
+        "lodgingAvailable": true,
+        "accessibility": "multilingual staff, standing/accessible garden beds, wheelchair-accessible paths", 
+        "desccription": ""
     
     },
     {
         "id": 4,
         "farmName": "Farm4",
-        "img":"./assets/",
+        "farmImageSource":"../assets/images/almond-orchard.jpg",
         "contactInfo":{
-            "Address":"",
-            "Phone":"",
+            "address":"",
+            "phone":"",
             "website":"www.google.com"
         },
 
-        "Region":"(US-W) West/Northwest",
-        "QTBIPOCAffirming": true,
-        "BlackAffirming": true,
+        "region":"(US-W) West/Northwest",
+        "qtbipocAffirming": true,
+        "blackAffirming": true,
         
-        "ProgramName":"QTBIPOC Farm Immersion Program4",
+        "programName":"QTBIPOC Farm Immersion Program4",
         
-        "Program-Format":{
-            "in-person": true,
-            "virtual": false,
-            "hybrid": false
-        },
+        "programFormat":[
+            "in-person"
+        ],
 
-        "HiresApprentices": false,
-        "FarmType":{
-            "Fruit-Vegetable": true,
-            "Flower-Herb": true,             
-            "Mushroom": true,
-            "Aquaponic-Fish": true,
-            "Garden-SmallSpace-Rooftop-Urban": true,
-            "Bee-Pollinator-Insect": true,
-            "Animal husbandry": false
-        },
+        "hiresApprentices": false,
+        "farmType":[
+            "fruit-vegetable",
+            "flower-herb",             
+            "mushroom",
+            "aquaponic-fish",
+            "garden-smallSpace-rooftop-urban",
+            "beePollinatorInsect"],
 
-        "Ownership":{
-            "Black-ownedOrLed": true,
-              "QTBIPOC-ownedOrLed": true,
-              "Woman-ownedOrLed": true
-        },
+        "ownership":[
+            "blackOwnedOrLed",
+            "qtbipocOwnedOrLed",
+            "womanOwnedOrLed"
+        ],
 
-        "CommunityType":{
-            "QTBIPOC":true,
-            "AfricanDiaspora": true,
-            "NativeAmerican": true,
-            "AAPI": true,
-            "LatinAmerican": true,
-            "Arab-MENA": true
-            },
-        "Costs":{
+        "communityType":[
+            "qtbipoc",
+            "africanDiaspora",
+            "nativeAmerican",
+            "aapi",
+            "latinAmerican",
+            "arabMENA"
+        ],
+        "cost":{
             "paidApprenticeship": true,
-            "programFee": ""
+            "programFee": 0.00
         },
-        "LodgingAvailable": true,
-        "Accessibility": "multilingual staff, standing/accessible garden beds, wheelchair-accessible paths", 
-        "Description": ""
+        "lodgingAvailable": true,
+        "accessibility": "multilingual staff, standing/accessible garden beds, wheelchair-accessible paths", 
+        "desccription": ""
     
     },
     {
         "id": 5,
         "farmName": "Farm5",
-        "img":"./assets/",
+        "farmImageSource":"../assets/images/almond-orchard.jpg",
         "contactInfo":{
-            "Address":"",
-            "Phone":"",
+            "address":"",
+            "phone":"",
             "website":"www.google.com"
         },
 
-        "Region":"(US-S) South",
-        "QTBIPOCAffirming": true,
-        "BlackAffirming": true,
+        "region":"(US-S) South",
+        "qtbipocAffirming": true,
+        "blackAffirming": true,
         
-        "ProgramName":"QTBIPOC Farm Immersion Program5",
+        "programName":"QTBIPOC Farm Immersion Program5",
         
-        "Program-Format":{
-            "in-person": true,
-            "virtual": false,
-            "hybrid": false
-        },
+        "programFormat":[
+            "in-person",
+            "virtual",
+            "hybrid"
+        ],
 
-        "HiresApprentices": true,
-        "FarmType":{
-            "Fruit-Vegetable": true,
-            "Flower-Herb": true,             
-            "Mushroom": true,
-            "Aquaponic-Fish": true,
-            "Garden-SmallSpace-Rooftop-Urban": true,
-            "Bee-Pollinator-Insect": true,
-            "Animal husbandry": true
-        },
+        "hiresApprentices": true,
+        "farmType":[
+            "fruit-vegetable",
+            "flower-herb",             
+            "mushroom",
+            "aquaponic-fish",
+            "garden-smallSpace-rooftop-urban",
+            "beePollinatorInsect",
+            "poultryLivestock"
+        ],
 
-        "Ownership":{
-            "Black-ownedOrLed": true,
-              "QTBIPOC-ownedOrLed": true,
-              "Woman-ownedOrLed": true
-        },
+        "ownership":[
+            "blackOwnedOrLed",
+            "qtbipocOwnedOrLed",
+            "womanOwnedOrLed"
+        ],
 
-        "CommunityType":{
-            "QTBIPOC":true,
-            "AfricanDiaspora": true,
-            "NativeAmerican": true,
-            "AAPI": true,
-            "LatinAmerican": true,
-            "Arab-MENA": true
-            },
-        "Costs":{
+        "communityType":[
+            "qtbipoc",
+            "africanDiaspora",
+            "nativeAmerican",
+            "aapi",
+            "latinAmerican",
+            "arabMENA"
+        ],
+        "cost":{
             "paidApprenticeship": true,
-            "programFee": ""
+            "programFee": 0.00
         },
-        "LodgingAvailable": true,
-        "Accessibility": "multilingual staff, standing/accessible garden beds, wheelchair-accessible paths", 
-        "Description": ""
+        "lodgingAvailable": true,
+        "accessibility": "multilingual staff, standing/accessible garden beds, wheelchair-accessible paths", 
+        "desccription": ""
     
     },
     {
         "id": 6,
         "farmName": "Farm6",
-        "img":"./assets/",
+        "farmImageSource":"../assets/images/almond-orchard.jpg",
         "contactInfo":{
-            "Address":"",
-            "Phone":"",
+            "address":"",
+            "phone":"",
             "website":"www.google.com"
         },
 
-        "Region":"(US-PO) Pacific Ocean",
-        "QTBIPOCAffirming": true,
-        "BlackAffirming": true,
+        "region":"(US-PO) Pacific Ocean",
+        "qtbipocAffirming": true,
+        "blackAffirming": true,
         
-        "ProgramName":"QTBIPOC Farm Immersion Program6",
+        "programName":"QTBIPOC Farm Immersion Program6",
         
-        "Program-Format":{
-            "in-person": true,
-            "virtual": false,
-            "hybrid": false
-        },
+        "programFormat":[
+            "in-person"
+        ],
 
-        "HiresApprentices": true,
-        "FarmType":{
-            "Fruit-Vegetable": true,
-            "Flower-Herb": true,             
-            "Mushroom": false,
-            "Aquaponic-Fish": false,
-            "Garden-SmallSpace-Rooftop-Urban": false,
-            "Bee-Pollinator-Insect": false,
-            "Animal husbandry": false
-        },
+        "hiresApprentices": true,
+        "farmType":[
+            "flower-herb"             
+        ],
 
-        "Ownership":{
-            "Black-ownedOrLed": true,
-              "QTBIPOC-ownedOrLed": false,
-              "Woman-ownedOrLed": true
-        },
+        "ownership":[
+            "blackOwnedOrLed",
+            "womanOwnedOrLed"
+        ],
 
-        "CommunityType":{
-            "QTBIPOC": true,
-            "AfricanDiaspora": true,
-            "NativeAmerican": false,
-            "AAPI": true,
-            "LatinAmerican": false,
-            "Arab-MENA": false
-            },
-        "Costs":{
+        "communityType":[
+            "qtbipoc",
+            "africanDiaspora",           
+            "aapi"
+        ],
+        
+        "cost":{
             "paidApprenticeship": true,
-            "programFee": ""
+            "programFee": 0.00
         },
-        "LodgingAvailable": true,
-        "Accessibility": "multilingual staff, standing/accessible garden beds, wheelchair-accessible paths", 
-        "Description": ""
+        
+        "lodgingAvailable": true,
+        "accessibility": "multilingual staff, standing/accessible garden beds, wheelchair-accessible paths", 
+        "desccription": ""
     
     },
     {
         "id": 7,
         "farmName": "Farm7",
-        "img":"./assets/",
+        "farmImageSource":"../assets/images/almond-orchard.jpg",
         "contactInfo":{
-            "Address":"",
-            "Phone":"",
+            "address":"",
+            "phone":"",
             "website":"www.google.com"
         },
 
-        "Region":"(US-CAR) Caribbean (Puerto Rico, US Virgin Islands)",
-        "QTBIPOCAffirming": true,
-        "BlackAffirming": true,
+        "region":"(US-CAR) Caribbean (Puerto Rico, US Virgin Islands)",
+        "qtbipocAffirming": true,
+        "blackAffirming": true,
         
-        "ProgramName":"QTBIPOC Farm Immersion Program7",
+        "programName":"QTBIPOC Farm Immersion Program7",
         
-        "Program-Format":{
-            "in-person": true,
-            "virtual": false,
-            "hybrid": false
-        },
+        "programFormat":[
+            "in-person"
+        ],
 
-        "HiresApprentices": true,
-        "FarmType":{
-            "Fruit-Vegetable": true,
-            "Flower-Herb": true,             
-            "Mushroom": true,
-            "Aquaponic-Fish": true,
-            "Garden-SmallSpace-Rooftop-Urban": true,
-            "Bee-Pollinator-Insect": true,
-            "Animal husbandry": true
-        },
+        "hiresApprentices": true,
+        "farmType":[
+            "mushroom",
+            "aquaponic-fish",
+            "garden-smallSpace-rooftop-urban",
+            "indoorGreenHouse",
+            "beePollinatorInsect",
+            "poultryLivestock"
+        ],
 
-        "Ownership":{
-            "Black-ownedOrLed": true,
-            "QTBIPOC-ownedOrLed": true,
-            "Woman-ownedOrLed": true
-        },
+        "ownership":[
+            "blackOwnedOrLed",
+            "qtbipocOwnedOrLed",
+            "womanOwnedOrLed"
+        ],
 
-        "CommunityType":{
-            "QTBIPOC": true,
-            "AfricanDiaspora": true,
-            "NativeAmerican": true,
-            "AAPI": false,
-            "LatinAmerican": true,
-            "Arab-MENA": false
-            },
-        "Costs":{
+        "communityType":[
+            "qtbipoc",
+            "africanDiaspora",
+            "nativeAmerican",
+            "latinAmerican"
+        ],
+        
+        "cost":{
             "paidApprenticeship": true,
-            "programFee": ""
+            "programFee": 0.00
         },
-        "LodgingAvailable": true,
-        "Accessibility": "multilingual staff, standing/accessible garden beds, wheelchair-accessible paths", 
-        "Description": ""
+        "lodgingAvailable": true,
+        "accessibility": "multilingual staff, standing/accessible garden beds, wheelchair-accessible paths", 
+        "desccription": ""
     
     }
 ]
