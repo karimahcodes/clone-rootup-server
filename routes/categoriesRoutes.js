@@ -21,7 +21,7 @@ router.get('/farmtypes', (req, res)=>{
     const farmData = fs.readFileSync("./data/farmData.json");
     const parsedFarmData = JSON.parse(farmData);
     const farmType = req.query.farmType;
-    const farmsByType = parsedFarmData.filter((farm)=>farm.farmType.includes(farmType));
+    const farmsByType = parsedFarmData.filter((farm)=>farm.farmType.includes(farmType)); 
 
     res.json(farmsByType)
     
