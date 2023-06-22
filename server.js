@@ -3,7 +3,8 @@ const cors = require("cors");
 
 const app = express();
 const farmRoutes = require('./routes/farmRoutes');
-const categoriesRoutes = require('./data/categories.json');
+// const categoriesRoutes = require('./data/categories.json');
+const categoriesRoutes = require("./routes/categoriesRoutes")
 // const userRoutes = require('./routes/userRoutes');
 
 

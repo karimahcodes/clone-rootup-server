@@ -23,6 +23,13 @@ router.get('/farmtypes', (req, res)=>{
 })
 
 router.get('/farmtypes', (req, res)=>{
+    const farmData = fs.readFileSync("./data/farmData.json");
+    const parsedFarmData = JSON.parse(farmData);
+    
+    const farmsByType = parsedFarmData.includes((farm)=>farm.farmType)
+
+    res.JSON(farmsByType)
+
     let fruitVegFarms = farmsData.find((farmType) => farmType.Fruit-Vegetable === true);
     if (fruitVegFarms === req.params.farmType) {
         res.json(fruitVegFarms)
@@ -46,12 +53,17 @@ router.get('/farmtypes', (req, res)=>{
 
 /***************************************************/
 router.get('/regions', (req, res)=>{
-    let region = req.query.type;
+    const farmData = fs.readFileSync("./data/farmData.json");
+    const parsedFarmData = JSON.parse(farmData);
+    const region = req.query.region;
+    
     
 
 })
 router.get('/communities', (req, res)=>{
-    let communities = req.query.type;
+    const farmData = fs.readFileSync("./data/farmData.json");
+    const parsedFarmData = JSON.parse(farmData);
+    const communities = req.query.community;
 
 })
 
