@@ -16,18 +16,42 @@ function readCategories(){
     const parsedCategories = JSON.parse(categories);
 }
 
+/****************[GET FARMS BY PRODUCTION TYPE]***************/
 router.get('/farmtypes', (req, res)=>{
-    console.log("farmtypes")
     const farmData = fs.readFileSync("./data/farmData.json");
     const parsedFarmData = JSON.parse(farmData);
     const farmType = req.query.farmType;
+    const farmsByType = parsedFarmData.filter((farm)=>farm.farmType.includes(farmType));
 
-    console.log(farmType);
-    const farmsByType = parsedFarmData.filter((farm)=>farm.farmType.includes(farmType))
     res.json(farmsByType)
     
 });
 
+
+/*********************[GET FARMS BY REGION]*********************/
+router.get('/regions', (req, res)=>{
+    const farmData = fs.readFileSync("./data/farmData.json");
+    const parsedFarmData = JSON.parse(farmData);
+    const region = req.query.region;
+    const farmsByRegion = parsedFarmData.filter((farm)=>farm.region.includes(region));
+
+    res.json(farmsByRegion)
+});
+
+/*********************[GET FARMS BY COMMUNITY]*********************/
+router.get('/communities', (req, res)=>{
+    const farmData = fs.readFileSync("./data/farmData.json");
+    const parsedFarmData = JSON.parse(farmData);
+    const community = req.query.communityType;
+    const farmsByCommunity = parsedFarmData.filter((farm)=>farm.communityType.includes(community));
+
+    res.json(farmsByCommunity);
+
+})
+
+
+
+module.exports = router;
 
 
 /*
@@ -57,25 +81,3 @@ router.get('/farmtypes', (req, res)=>{
         "(US-CAR) Caribbean (Puerto Rico, US Virgin Islands)",
 
  */
-
-
-
-/***************************************************/
-router.get('/regions', (req, res)=>{
-    const farmData = fs.readFileSync("./data/farmData.json");
-    const parsedFarmData = JSON.parse(farmData);
-    const region = req.query.region;
-    const farmsByRegion = parsedFarmData.filter((farm)=>farm.region.includes(region));
-    res.json(farmsByRegion)
-});
-
-router.get('/communities', (req, res)=>{
-    const farmData = fs.readFileSync("./data/farmData.json");
-    const parsedFarmData = JSON.parse(farmData);
-    const community = req.query.communityType;
-    const farmsByCommunity = parsedFarmData.filter((farm)=>farm.communityType.includes(community));
-    res.json(farmsByCommunity);
-
-})
-
-module.exports = router;
