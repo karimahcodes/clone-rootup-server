@@ -23,12 +23,12 @@
 
         "HiresApprentices": false,
         "FarmType":{
-            "Fruit/Vegetable": true,
-            "Flower/Herb": true,             
+            "Fruit-Vegetable": true,
+            "Flower-Herb": true,             
             "Mushroom": true,
-            "Aquaponic/Fish": false,
-            "Garden/SmallSpace/Rooftop/Urban": false,
-            "Bee/Pollinator/Insect": false,
+            "Aquaponic-Fish": false,
+            "Garden-SmallSpace-Rooftop-Urban": false,
+            "Bee-Pollinator-Insect": false,
             "Animal husbandry": false
         },
 
@@ -44,7 +44,7 @@
             "NativeAmerican": true,
             "AAPI": false,
             "LatinAmerican": true,
-            "Arab/MENA": false
+            "Arab-MENA": false
             },
         "Costs":{
             "paidApprenticeship": true,
@@ -78,12 +78,12 @@
 
         "HiresApprentices": false,
         "FarmType":{
-            "Fruit/Vegetable": true,
-            "Flower/Herb": true,             
+            "Fruit-Vegetable": true,
+            "Flower-Herb": true,             
             "Mushroom": true,
-            "Aquaponic/Fish": false,
-            "Garden/SmallSpace/Rooftop/Urban": false,
-            "Bee/Pollinator/Insect": false,
+            "Aquaponic-Fish": false,
+            "Garden-SmallSpace-Rooftop-Urban": false,
+            "Bee-Pollinator-Insect": false,
             "Animal husbandry": false
         },
 
@@ -99,7 +99,7 @@
             "NativeAmerican": true,
             "AAPI": true,
             "LatinAmerican": true,
-            "Arab/MENA": false
+            "Arab-MENA": false
             },
         "Costs":{
             "paidApprenticeship": true,
@@ -134,12 +134,12 @@
 
         "HiresApprentices": false,
         "FarmType":{
-            "Fruit/Vegetable": true,
-            "Flower/Herb": true,             
+            "Fruit-Vegetable": true,
+            "Flower-Herb": true,             
             "Mushroom": true,
-            "Aquaponic/Fish": true,
-            "Garden/SmallSpace/Rooftop/Urban": true,
-            "Bee/Pollinator/Insect": false,
+            "Aquaponic-Fish": true,
+            "Garden-SmallSpace-Rooftop-Urban": true,
+            "Bee-Pollinator-Insect": false,
             "Animal husbandry": false
         },
 
@@ -155,7 +155,7 @@
             "NativeAmerican": false,
             "AAPI": false,
             "LatinAmerican": false,
-            "Arab/MENA": true
+            "Arab-MENA": true
             },
         "Costs":{
             "paidApprenticeship": true,
@@ -190,12 +190,12 @@
 
         "HiresApprentices": false,
         "FarmType":{
-            "Fruit/Vegetable": true,
-            "Flower/Herb": true,             
+            "Fruit-Vegetable": true,
+            "Flower-Herb": true,             
             "Mushroom": true,
-            "Aquaponic/Fish": true,
-            "Garden/SmallSpace/Rooftop/Urban": true,
-            "Bee/Pollinator/Insect": true,
+            "Aquaponic-Fish": true,
+            "Garden-SmallSpace-Rooftop-Urban": true,
+            "Bee-Pollinator-Insect": true,
             "Animal husbandry": false
         },
 
@@ -211,7 +211,7 @@
             "NativeAmerican": true,
             "AAPI": true,
             "LatinAmerican": true,
-            "Arab/MENA": true
+            "Arab-MENA": true
             },
         "Costs":{
             "paidApprenticeship": true,
@@ -246,12 +246,12 @@
 
         "HiresApprentices": true,
         "FarmType":{
-            "Fruit/Vegetable": true,
-            "Flower/Herb": true,             
+            "Fruit-Vegetable": true,
+            "Flower-Herb": true,             
             "Mushroom": true,
-            "Aquaponic/Fish": true,
-            "Garden/SmallSpace/Rooftop/Urban": true,
-            "Bee/Pollinator/Insect": true,
+            "Aquaponic-Fish": true,
+            "Garden-SmallSpace-Rooftop-Urban": true,
+            "Bee-Pollinator-Insect": true,
             "Animal husbandry": true
         },
 
@@ -267,7 +267,7 @@
             "NativeAmerican": true,
             "AAPI": true,
             "LatinAmerican": true,
-            "Arab/MENA": true
+            "Arab-MENA": true
             },
         "Costs":{
             "paidApprenticeship": true,
@@ -302,12 +302,12 @@
 
         "HiresApprentices": true,
         "FarmType":{
-            "Fruit/Vegetable": true,
-            "Flower/Herb": true,             
+            "Fruit-Vegetable": true,
+            "Flower-Herb": true,             
             "Mushroom": false,
-            "Aquaponic/Fish": false,
-            "Garden/SmallSpace/Rooftop/Urban": false,
-            "Bee/Pollinator/Insect": false,
+            "Aquaponic-Fish": false,
+            "Garden-SmallSpace-Rooftop-Urban": false,
+            "Bee-Pollinator-Insect": false,
             "Animal husbandry": false
         },
 
@@ -323,7 +323,7 @@
             "NativeAmerican": false,
             "AAPI": true,
             "LatinAmerican": false,
-            "Arab/MENA": false
+            "Arab-MENA": false
             },
         "Costs":{
             "paidApprenticeship": true,
@@ -358,12 +358,12 @@
 
         "HiresApprentices": true,
         "FarmType":{
-            "Fruit/Vegetable": true,
-            "Flower/Herb": true,             
+            "Fruit-Vegetable": true,
+            "Flower-Herb": true,             
             "Mushroom": true,
-            "Aquaponic/Fish": true,
-            "Garden/SmallSpace/Rooftop/Urban": true,
-            "Bee/Pollinator/Insect": true,
+            "Aquaponic-Fish": true,
+            "Garden-SmallSpace-Rooftop-Urban": true,
+            "Bee-Pollinator-Insect": true,
             "Animal husbandry": true
         },
 
@@ -379,7 +379,7 @@
             "NativeAmerican": true,
             "AAPI": false,
             "LatinAmerican": true,
-            "Arab/MENA": false
+            "Arab-MENA": false
             },
         "Costs":{
             "paidApprenticeship": true,
