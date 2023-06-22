@@ -21,47 +21,44 @@ function readCategories(){
 //     let farmtype = req.query.type;
 
 // })
-
+/***************[FARM PRODUCTION TYPE]**************/
 router.get('/farmtypes', (req, res)=>{
-    console.log("farmtype", req.query.farmType);
+    // console.log("farmtype", req.query.farmType);
     
     const farmData = fs.readFileSync("./data/farmData.json");
     const parsedFarmData = JSON.parse(farmData);
-    
     //convert all values to adjust for mis-casing in the request
-    const farmType = req.query.farmType.toLowerCase();
+    // const farmType = req.query.farmType.toLowerCase();
 
-    let farmsByCategory = parsedFarmData.filter((farm) => farm.farmType.includes(farmType));
-    console.log("test of farms")
-    // if (fruitVegFarms === req.query.farmType) {
-    res.json(farmsByCategory);
-    // }else{ 
-        // res.status(404).json({message: "farmtype not found"})
-    // }
-    // ;
+    const farmsByType = parsedFarmData.filter((farm) => farm.farmType.includes(farmType));
+    res.json(farmsByType);
+   
     
 })
 
-/*
- "Fruit/Vegetable",
-        "Flower/Herb",             
-        "Mushroom",
-        "Aquaponic/Fish",
-        "Garden/SmallSpace/Rooftop/Urban",
-        "Bee/Pollinator/Insect",
-        "Animal husbandry"
- */
-
-
-
-/***************************************************/
+/*******************[REGIONS]**********************/
 router.get('/regions', (req, res)=>{
-    let region = req.query.type;
-    
+    const farmData = fs.readFileSync("./data/farmData.json");
+    const parsedFarmData = JSON.parse(farmData);
+    const region = req.query.region;
+
+    const farmsByRegion = parsedFarmData.filter((farm)=> farm.region.includes(region));
+
+    res.json(farmsByRegion);
 
 })
+
+
+/****************[COMMUNITY OF FOCUS]**************/
 router.get('/communities', (req, res)=>{
-    let communities = req.query.type;
+    const farmData = fs.readFileSync("./data/farmData.json");
+    const parsedFarmData = JSON.parse(farmData);
+    const communityType = req.query.communityType;
+
+    const farmsByCommunity = parsedFarmData.filter((farm)=> farm.communityType.includes(communityType));
+
+    res.json(farmsByCommunity);
+
 
 })
 
