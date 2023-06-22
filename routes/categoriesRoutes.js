@@ -17,27 +17,21 @@ function readCategories(){
 }
 
 // GET all farms by type of production/("farmtype")
-router.get('/farmtypes', (req, res)=>{
-    let farmtype = req.query.type;
+// router.get('/farmtypes', (req, res)=>{
+//     let farmtype = req.query.type;
 
-})
+// })
 
 router.get('/farmtypes', (req, res)=>{
     const farmData = fs.readFileSync("./data/farmData.json");
     const parsedFarmData = JSON.parse(farmData);
-    
-    const farmsByType = parsedFarmData.includes((farm)=>farm.farmType)
-
+    const farmType = req.query.type;
+    const farmsByType = parsedFarmData.filter((farm)=>farm.farmType.includes(farmType));
     res.JSON(farmsByType)
-
-    let fruitVegFarms = farmsData.find((farmType) => farmType.Fruit-Vegetable === true);
-    if (fruitVegFarms === req.params.farmType) {
-        res.json(fruitVegFarms)
-    }else{ 
-        res.status(404).json({message: "farmtype not found"})
-    };
     
-})
+});
+
+
 
 /*
  "Fruit/Vegetable",
@@ -56,14 +50,17 @@ router.get('/regions', (req, res)=>{
     const farmData = fs.readFileSync("./data/farmData.json");
     const parsedFarmData = JSON.parse(farmData);
     const region = req.query.region;
-    
-    
+    const farmsByRegion = parsedFarmData.includes((farm)=>farm.region);
+    res.JSON(farmsByRegion);
+});
 
-})
 router.get('/communities', (req, res)=>{
     const farmData = fs.readFileSync("./data/farmData.json");
     const parsedFarmData = JSON.parse(farmData);
-    const communities = req.query.community;
+    const community = req.query.community;
+    const farmsByCommunity = parsedFarmData.includes((farm)=>
+    farm.community);
+    res.JSON(farmsByCommunity);
 
 })
 

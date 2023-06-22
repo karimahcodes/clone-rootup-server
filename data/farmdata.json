@@ -22,15 +22,11 @@
         },
 
         "HiresApprentices": false,
-        "FarmType":{
-            "Fruit-Vegetable": true,
-            "Flower-Herb": true,             
-            "Mushroom": true,
-            "Aquaponic-Fish": false,
-            "Garden-SmallSpace-Rooftop-Urban": false,
-            "Bee-Pollinator-Insect": false,
-            "Animal husbandry": false
-        },
+        "farmType":[
+            "Fruit-Vegetable",
+            "Flower-Herb",             
+            "Mushroom"
+        ],
 
         "Ownership":{
             "Black-ownedOrLed": true,
