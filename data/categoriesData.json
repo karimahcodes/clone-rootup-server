@@ -1,0 +1,29 @@
+{
+    "farmtype": [
+        "fruitVegetable",
+        "flowerHerb",
+        "mushroom",
+        "aquaponicFish",
+        "gardenSmallSpaceRooftopUrban",
+        "beePollinatorInsect",        
+        "poultryLivestock",
+        "indoorGreenhouse"
+    ],
+    "Communities": [
+        "QTBIPOC",
+        "African Diaspora",
+        "Asian American Pacific Islander",
+        "Latin American",
+        "Arab/Middle Eastern/North African",
+        "Indigenous/Native American"
+    ],
+    "Region": [
+        "(US-NE) NorthEast",
+        "(US-SE) SouthEast",
+        "(US-MW) Midwest",
+        "(US-W) West/Northwest",
+        "(US-S) South",
+        "(US-PO) Pacific Ocean",
+        "(US-CAR) Caribbean (Puerto Rico, US Virgin Islands)"
+    ]
+}
