@@ -19,7 +19,11 @@ router.get('/', (req, res) => {
 /****[Retrieve Single Farm]****/
 router.get('/:id', (req, res) => {
     const farms = readFarmData();
-    const selectedFarm = farms.filter((farm)=> farms.id === req.params.id);
+    
+    const selectedFarm = farms.find( (farm) => 
+        farm.id === req.params.id);
+
+    
     res.json(selectedFarm);
 
 });
@@ -27,7 +31,7 @@ router.get('/:id', (req, res) => {
 
 
 
-/****[upcoming feature: add a new farm]********** :
+/****[upcoming feature: add a new farm]**********
 router.post('/', (req, res) => {
     const farmSubmission ={
         id: uuid(),

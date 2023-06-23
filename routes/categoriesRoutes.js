@@ -11,19 +11,6 @@ router.get('/', (req, res)=>{
 })
 
 
-// //to generate a list of farms
-// function readFarmData(){
-//     const farmData = fs.readFileSync("./data/farmData.json");
-//     const parsedFarmData = JSON.parse(farmData);
-//     return parsedFarmData;
-// }
-
-// //to generate list of options within a category
-// function readCategories(){
-//     const categories = fs.readFileSync("./data/categories.json");
-//     const parsedCategories = JSON.parse(categories);
-// }
-
 /****************[GET FARMS BY PRODUCTION TYPE]***************/
 router.get('/farmtypes', (req, res)=>{
     const farmData = fs.readFileSync("./data/farmData.json");
@@ -61,7 +48,18 @@ router.get('/communities', (req, res)=>{
 
 module.exports = router;
 
+// //to generate a list of farms
+// function readFarmData(){
+//     const farmData = fs.readFileSync("./data/farmData.json");
+//     const parsedFarmData = JSON.parse(farmData);
+//     return parsedFarmData;
+// }
 
+// //to generate list of options within a category
+// function readCategories(){
+//     const categories = fs.readFileSync("./data/categories.json");
+//     const parsedCategories = JSON.parse(categories);
+// }
 /*
     farmType optionss:
         "fruitVegetable",
