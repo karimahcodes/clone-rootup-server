@@ -29,6 +29,10 @@ router.get('/:id', (req, res) => {
 });
 
 
+// /****[GET a farm's static image file]****/
+// app.get("/", (req, res) => {
+//     return res.sendFile(__dirname + "/public/assets/images/almond-orchard.jpg");
+//   });
 
 
 /****[upcoming feature: add a new farm]**********

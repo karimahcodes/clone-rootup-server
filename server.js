@@ -7,6 +7,7 @@ const categoriesRoutes = require("./routes/categoriesRoutes")
 
 
 app.use(cors());
+app.use(express.static("public"));
 
 app.use('/farms', farmRoutes)
 app.use('/categories', categoriesRoutes)
