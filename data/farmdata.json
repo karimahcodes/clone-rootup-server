@@ -44,7 +44,7 @@
     {
         "id": "2",
         "farmName": "Farm2 - SouthEast WaddleOm Farm",
-        "farmImageSource": "farm2.jpg",
+        "farmImageSource": "farm2.png",
         "contactInfo": {
             "address": "123 Sesame Street, East Elmo, New York 11344",
             "phone": "718-788-0777",
@@ -83,7 +83,7 @@
     {
         "id": "3",
         "farmName": "Farm3 - The Birth Healing Garden at Sunrise Farms",
-        "farmImageSource": "farm3.jpg",
+        "farmImageSource": "farm3.png",
         "contactInfo": {
             "address": "123 Main Street, Chicago, IL 11111",
             "phone": "718-788-0777",
@@ -206,12 +206,12 @@
         },
         "lodgingAvailable": true,
         "accessibility": "multilingual staff, standing/accessible garden beds, wheelchair-accessible paths, virtual classes and transportation stipends offered to apprentices who need",
-        "description": "The QTBIPOC program offers a safe space for apprentices to heal through reconnection with the land. We co-teach year-round healing practices with apprentices and the ways indoor and outdoor gardening can ensure food sovereignty for communities with limited land access. This is currently an unpaid training, but we share our farm yields with apprentices throughout the season. Our apprenticeships run year round with applications being accepted in October. We have rootUP Farmentors on staff. To apply, visit our website or email Farmer Cameron Edgeworth (pictured above)."
+        "description": "The QTBIPOC program offers a safe space for apprentices to heal through reconnection with the land. Apprentices will also explore how indoor and outdoor gardening practices can ensure food sovereignty for communities with limited land access. This is currently an unpaid training, but we share our farm yields with growers throughout the season. Our apprenticeships run year round with applications being accepted in October. We have rootUP Farmentors on staff. To apply, visit our website or email Farmer Cameron Edgeworth (pictured above)."
     },
     {
         "id": "6",
-        "farmName": "Farm6 - Upper Egypt Nubian Farm of Haw",
-        "farmImageSource": "Farm6.jpg",
+        "farmName": "Farm6 - Nubian Farms of Hawaii",
+        "farmImageSource": "farm6.jpg",
         "contactInfo": {
             "address": "123 Sesame Street, Ocean View, Hawaii 96737",
             "phone": "718-788-0777",
@@ -231,9 +231,9 @@
             "flowerHerb",
             "indoorGreenhouse"
         ],
-        "Ownership": [
-            "Black-ownedOrLed",
-            "Woman-ownedOrLed"
+        "ownership": [
+            "blackOwnedOrLed",
+            "womanOwnedOrLed"
         ],
         "communityType": [
             "africanDiaspora",
@@ -246,7 +246,7 @@
         },
         "lodgingAvailable": false,
         "accessibility": "multilingual staff, standing/accessible garden beds, wheelchair-accessible paths",
-        "description": "The NuBee Beekeeper program trains aspiring beekeepers and entrepreneurs on traditional and contemporary beekeeping practices of Upper Egypt. Scared of bees? That's ok! We will teach you to how to store and sell added value products that make use of excess honey not needed by our bee friends, and about nurturing insects, fungi and other small but mighty members of our wonderful ecosystem. Our apprenticeships run year round with applications being accepted in October. We have rootUP Farmentors on staff. To apply, visit our website or email Farmer Muhammad Mustafa (pictured above)."
+        "description": "The NuBee Beekeeper program trains aspiring beekeepers and entrepreneurs on traditional and contemporary beekeeping practices of Upper Egypt. Scared of bees? That's ok! We will teach you how to store and sell added value products that make use of excess honey not needed by our bee friends, and about nurturing insects, fungi and other small but mighty members of our wonderful ecosystem. Our apprenticeships run year round with applications being accepted in October. We have rootUP Farmentors on staff. To apply, visit our website or email Farmer Muhammad Mustafa (pictured above)."
     },
     {
         "id": "7",
