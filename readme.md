@@ -1,3 +1,8 @@
+# clone-rootup-server
+This is an early copy of the original server for the "rootUP " app mentioned in my demo link.  The most-up-to-date code is stored in a private repo available for viewing on request.
+
+********************
+
 "server-rootup" is the server for the "rootup" repository.
 
 This server runs best on localhost:8080.
